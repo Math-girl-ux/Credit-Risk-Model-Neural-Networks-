@@ -6,7 +6,7 @@ We compare three machine learning models — Logistic Regression, XGBoost, and a
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Source**: [LendingClub Loan Data (Kaggle)](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
 - **Rows**: 2.2M+
@@ -17,7 +17,7 @@ We compare three machine learning models — Logistic Regression, XGBoost, and a
 
 ---
 
-## 🧠 Models Trained
+## Models Trained
 
 | Model                | Notes                     |
 |---------------------|---------------------------|
@@ -27,7 +27,7 @@ We compare three machine learning models — Logistic Regression, XGBoost, and a
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Model            | Accuracy | ROC-AUC | Recall (Default) | Precision (Default) |
 |------------------|----------|---------|------------------|----------------------|
@@ -35,11 +35,11 @@ We compare three machine learning models — Logistic Regression, XGBoost, and a
 | XGBoost          | 0.640    | 0.712   | 0.67             | 0.31                 |
 | Neural Network   | 0.807    | 0.710   | 0.03             | 0.57                 |
 
-> ⚠️ Due to class imbalance, recall for defaults was low in most models except for XGBoost.
+> Due to class imbalance, recall for defaults was low in most models except for XGBoost.
 
 ---
 
-## 🧹 Preprocessing
+## Preprocessing
 
 - Removed irrelevant columns (`id`, `member_id`, etc.)
 - Mapped target classes
